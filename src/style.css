@@ -1,0 +1,134 @@
+body {
+  background-color: #0D192C;
+}
+@media screen and (max-width: 380px) {
+  .main {
+      width: 340px;
+      height: 550px;
+      background-color: #15263F;
+      border-radius: 10px;
+      margin: 30px 10px;
+  }
+  .main .top {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .main .bottom {
+      padding-top: 335px;
+      padding-left: 20px;
+      font-family: sans-serif;
+  }
+  .main .bottom header {
+      color: white;
+      font-weight: 600;
+      font-size: 22px;
+      padding-top: 10px;
+  }
+  .main .bottom main {
+      color: #8BACD9;
+      font-family: sans-serif;
+      padding-top: 17px;
+      width: 210px;
+  }
+  .main .bottom .bottom_child {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-bottom: 1px solid #8bacd95c;
+      width: 300px;
+  }
+  .main .bottom .bottom_child p:nth-child(1) {
+      color: #00FFF8;
+      font-weight: 600;
+  }
+  .main .bottom .bottom_child p:nth-child(2) {
+      color: #8BACD9;
+  }
+  .main .bottom sub {
+      color: #8BACD9;
+      display: block;
+      padding-top: 18px;
+      padding-left: 50px;
+  }
+  .main .bottom span {
+      color: white;
+  }
+  .main .bottom img {
+      padding-top: 10px;
+      position: absolute;
+  }
+}
+.main {
+  width: 340px;
+  height: 550px;
+  background-color: #15263F;
+  border-radius: 10px;
+  margin: 30px 10px;
+  margin: auto;
+  margin-top: 100px;
+}
+.main .top {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.main .bottom {
+  padding-top: 335px;
+  padding-left: 20px;
+  font-family: sans-serif;
+}
+.main .bottom header {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.main .bottom main {
+  color: #8BACD9;
+  font-family: sans-serif;
+  padding-top: 17px;
+  width: 210px;
+}
+.main .bottom .bottom_child {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid #8bacd95c;
+  width: 300px;
+}
+.main .bottom .bottom_child p:nth-child(1) {
+  color: #00FFF8;
+  font-weight: 600;
+}
+.main .bottom .bottom_child p:nth-child(2) {
+  color: #8BACD9;
+}
+.main .bottom sub {
+  color: #8BACD9;
+  display: block;
+  padding-top: 18px;
+  padding-left: 50px;
+}
+.main .bottom span {
+  color: white;
+}
+.main .bottom img {
+  padding-top: 10px;
+  position: absolute;
+}
+.main .bottom header:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+.main .bottom span:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+.main .top img {
+  cursor: pointer;
+}
